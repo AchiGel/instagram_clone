@@ -1,4 +1,4 @@
-import burger from "../images/burger.png";
+import burger from "../images/menu-burger.png";
 import "../styles/more.css";
 
 function More() {

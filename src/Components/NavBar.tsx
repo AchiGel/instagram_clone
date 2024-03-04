@@ -1,11 +1,11 @@
 import NavBarItems from "./NavBarItems";
-import homeIcon from "../images/home-icon.png";
-import searchIcon from "../images/searchIcon.png";
+import homeIcon from "../images/home.png";
+import searchIcon from "../images/search.png";
 import exploreIcon from "../images/explore-icon-512x512-znt7vcm6.png";
 import reelsIcon from "../images/reels-icon.png";
 import messagesIcon from "../images/messenger-icon-2048x2046-v03kqn4a.png";
-import notificationsIcon from "../images/heart-instagram-like-notification-icon-transparent-png-1825360.png";
-import createIcon from "../images/new_create_ui_ux_plus_add_icon_224699.png";
+import notificationsIcon from "../images/heart.png";
+import createIcon from "../images/create.png";
 
 function NavBar() {
   const navbarItems = [
