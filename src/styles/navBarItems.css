@@ -1,7 +1,7 @@
 .navbar-items {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 10px;
 }
 
 .nav-bar-items {
@@ -9,6 +9,15 @@
   align-items: center;
   justify-content: flex-start;
   gap: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-bar-items:hover {
+  cursor: pointer;
+  background-color: rgba(211, 211, 211, 0.397);
+  scale: 1.01;
 }
 
 .nav-bar-items img {
