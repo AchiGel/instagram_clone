@@ -1,0 +1,16 @@
+.navbar-items {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.nav-bar-items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.nav-bar-items img {
+  width: 30px;
+}
