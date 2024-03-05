@@ -1,0 +1,27 @@
+.aside-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.aside-profile button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #0095f6;
+  font-size: 12px;
+}
+
+.aside-profile-info {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.aside-profile-info img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
