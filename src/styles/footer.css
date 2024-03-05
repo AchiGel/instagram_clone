@@ -1,0 +1,27 @@
+a {
+  text-decoration: none;
+  color: #c7c7c7;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #c7c7c7;
+  font-size: 12px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}
+
+.dot {
+  display: block;
+  width: 2px;
+  height: 2px;
+  background-color: #c7c7c7;
+  border-radius: 50%;
+}
