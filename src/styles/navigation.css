@@ -17,6 +17,10 @@
   width: 103px;
 }
 
+.navigation-logo-responsive {
+  display: none;
+}
+
 .navigation-logo:hover {
   cursor: pointer;
 }

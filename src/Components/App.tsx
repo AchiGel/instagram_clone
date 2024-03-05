@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/App.css";
 import Navigation from "./Navigation";
 import Main from "./Main";
+import "../styles/responsive.css";
 
 function App() {
   return (
