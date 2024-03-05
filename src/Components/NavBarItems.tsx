@@ -2,10 +2,13 @@ import "../styles/navBarItems.css";
 
 function NavBarItems(props: any) {
   return (
-    <div className="nav-bar-items">
+    <button
+      onClick={props.handleSearch}
+      className="nav-bar-items navbar-button"
+    >
       <img src={props.icon} alt="icon" />
       <h3>{props.title}</h3>
-    </div>
+    </button>
   );
 }
 
