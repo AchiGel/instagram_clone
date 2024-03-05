@@ -1,4 +1,5 @@
 .main-aside {
+  padding-top: 25px;
   padding-left: 64px;
-  flex: 1 1 50%;
+  flex: 1 1 30%;
 }
