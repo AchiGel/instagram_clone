@@ -1,0 +1,30 @@
+.suggested-profiles {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.suggested-profiles-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.suggested-profiles-header h2 {
+  font-size: 14px;
+  color: #737373;
+  font-weight: 500;
+}
+
+.suggested-profiles-header button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 12px;
+}
+
+.suggested-profiles-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
