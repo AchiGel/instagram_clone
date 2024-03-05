@@ -1,58 +1,10 @@
 import "../styles/mainBody.css";
+import Post from "./Post";
 
 function MainBody() {
   return (
     <section className="main-body">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum ipsa
-      ipsum, dolor nihil cupiditate voluptatem esse quidem commodi officia?
-      Deserunt aut officia consequuntur veritatis incidunt atque ipsam corporis
-      esse. Repellendus? Lorem ipsum dolor sit, amet consectetur adipisicing
-      elit. Nostrum ipsa ipsum, dolor nihil cupiditate voluptatem esse quidem
-      commodi officia? Deserunt aut officia consequuntur veritatis incidunt
-      atque ipsam corporis esse. Repellendus? Lorem ipsum dolor sit, amet
-      consectetur adipisicing elit. Nostrum ipsa ipsum, dolor nihil cupiditate
-      voluptatem esse quidem commodi officia? Deserunt aut officia consequuntur
-      veritatis incidunt atque ipsam corporis esse. Repellendus? Lorem ipsum
-      dolor sit, amet consectetur adipisicing elit. Nostrum ipsa ipsum, dolor
-      nihil cupiditate voluptatem esse quidem commodi officia? Deserunt aut
-      officia consequuntur veritatis incidunt atque ipsam corporis esse.
-      Repellendus? Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-      Nostrum ipsa ipsum, dolor nihil cupiditate voluptatem esse quidem commodi
-      officia? Deserunt aut officia consequuntur veritatis incidunt atque ipsam
-      corporis esse. Repellendus? Lorem ipsum dolor sit, amet consectetur
-      adipisicing elit. Nostrum ipsa ipsum, dolor nihil cupiditate voluptatem
-      esse quidem commodi officia? Deserunt aut officia consequuntur veritatis
-      incidunt atque ipsam corporis esse. Repellendus? Lorem ipsum dolor sit,
-      amet consectetur adipisicing elit. Nostrum ipsa ipsum, dolor nihil
-      cupiditate voluptatem esse quidem commodi officia? Deserunt aut officia
-      consequuntur veritatis incidunt atque ipsam corporis esse. Repellendus?
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum ipsa
-      ipsum, dolor nihil cupiditate voluptatem esse quidem commodi officia?
-      Deserunt aut officia consequuntur veritatis incidunt atque ipsam corporis
-      esse. Repellendus? Lorem ipsum dolor sit, amet consectetur adipisicing
-      elit. Nostrum ipsa ipsum, dolor nihil cupiditate voluptatem esse quidem
-      commodi officia? Deserunt aut officia consequuntur veritatis incidunt
-      atque ipsam corporis esse. Repellendus? Lorem ipsum dolor sit, amet
-      consectetur adipisicing elit. Nostrum ipsa ipsum, dolor nihil cupiditate
-      voluptatem esse quidem commodi officia? Deserunt aut officia consequuntur
-      veritatis incidunt atque ipsam corporis esse. Repellendus? Lorem ipsum
-      dolor sit, amet consectetur adipisicing elit. Nostrum ipsa ipsum, dolor
-      nihil cupiditate voluptatem esse quidem commodi officia? Deserunt aut
-      officia consequuntur veritatis incidunt atque ipsam corporis esse.
-      Repellendus? Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-      Nostrum ipsa ipsum, dolor nihil cupiditate voluptatem esse quidem commodi
-      officia? Deserunt aut officia consequuntur veritatis incidunt atque ipsam
-      corporis esse. Repellendus? Lorem ipsum dolor sit, amet consectetur
-      adipisicing elit. Nostrum ipsa ipsum, dolor nihil cupiditate voluptatem
-      esse quidem commodi officia? Deserunt aut officia consequuntur veritatis
-      incidunt atque ipsam corporis esse. Repellendus? Lorem ipsum dolor sit,
-      amet consectetur adipisicing elit. Nostrum ipsa ipsum, dolor nihil
-      cupiditate voluptatem esse quidem commodi officia? Deserunt aut officia
-      consequuntur veritatis incidunt atque ipsam corporis esse. Repellendus?
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum ipsa
-      ipsum, dolor nihil cupiditate voluptatem esse quidem commodi officia?
-      Deserunt aut officia consequuntur veritatis incidunt atque ipsam corporis
-      esse. Repellendus?
+      <Post />
     </section>
   );
 }
