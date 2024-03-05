@@ -7,7 +7,7 @@ import save from "../images/save-instagram.png";
 import dots from "../images/dots.png";
 import emoji from "../images/happiness.png";
 
-function Post() {
+function Post(props: any) {
   return (
     <div className="post">
       <div className="post-profile">
@@ -16,7 +16,7 @@ function Post() {
       </div>
 
       <div className="post-content">
-        <img src="https://picsum.photos/470/700" alt="postContent" />
+        <img src={props.imgSrc} alt="postContent" />
       </div>
       <div className="post-options">
         <div className="post-options-left">
