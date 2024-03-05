@@ -1,7 +1,7 @@
 import "../styles/asideProfile.css";
 import profileImg from "../images/profileImg.jpg";
 
-function AsideProfile() {
+function AsideProfile(props: any) {
   return (
     <div className="aside-profile">
       <div className="aside-profile-info">
@@ -11,7 +11,8 @@ function AsideProfile() {
           <span>Achi Gelashvili</span>
         </div>
       </div>
-      <button>Switch</button>
+      {props.switch}
+      {props.follow}
     </div>
   );
 }

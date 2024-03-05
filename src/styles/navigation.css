@@ -16,3 +16,7 @@
 .navigation-logo {
   width: 103px;
 }
+
+.navigation-logo:hover {
+  cursor: pointer;
+}

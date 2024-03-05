@@ -4,6 +4,11 @@
   align-items: center;
   margin-top: 1em;
 }
+.more:hover {
+  cursor: pointer;
+  background-color: rgba(211, 211, 211, 0.397);
+  scale: 1.01;
+}
 
 .more img {
   max-width: 30px;

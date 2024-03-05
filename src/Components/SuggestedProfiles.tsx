@@ -9,11 +9,11 @@ function SuggestedProfiles() {
         <button>See All</button>
       </div>
       <div className="suggested-profiles-cards">
-        <AsideProfile />
-        <AsideProfile />
-        <AsideProfile />
-        <AsideProfile />
-        <AsideProfile />
+        <AsideProfile follow={<button>Follow</button>} />
+        <AsideProfile follow={<button>Follow</button>} />
+        <AsideProfile follow={<button>Follow</button>} />
+        <AsideProfile follow={<button>Follow</button>} />
+        <AsideProfile follow={<button>Follow</button>} />
       </div>
     </div>
   );

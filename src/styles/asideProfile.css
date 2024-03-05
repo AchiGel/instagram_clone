@@ -12,6 +12,11 @@
   font-size: 12px;
 }
 
+.aside-profile button:hover {
+  cursor: pointer;
+  color: #012944;
+}
+
 .aside-profile-info {
   font-size: 14px;
   display: flex;
@@ -24,4 +29,16 @@
   height: 44px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.aside-profile-info img:hover {
+  cursor: pointer;
+}
+
+.aside-profile-info-names h3 {
+  font-weight: 500;
+}
+
+.aside-profile-info-names h3:hover {
+  cursor: pointer;
 }

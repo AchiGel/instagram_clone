@@ -5,6 +5,12 @@
   padding: 10px 0px;
 }
 
+.profile:hover {
+  cursor: pointer;
+  background-color: rgba(211, 211, 211, 0.397);
+  scale: 1.01;
+}
+
 .profile img {
   border-radius: 50%;
   width: 30px;

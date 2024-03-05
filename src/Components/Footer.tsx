@@ -1,48 +1,31 @@
 import "../styles/footer.css";
 
 function Footer() {
+  const footerTags = [
+    "About",
+    "Help",
+    "Press",
+    "Api",
+    "Jobs",
+    "Privacy",
+    "Terms",
+    "Locations",
+    "Language",
+    "Meta verified",
+  ];
   return (
     <div className="footer">
       <div className="footer-links">
-        <a href="https://#">
-          <span>About</span>
-        </a>
-        <span className="dot"></span>
-        <a href="https://#">
-          <span>Help</span>
-        </a>
-        <span className="dot"></span>
-        <a href="https://#">
-          <span>Press</span>
-        </a>
-        <span className="dot"></span>
-        <a href="https://#">
-          <span>Api</span>
-        </a>
-        <span className="dot"></span>
-        <a href="https://#">
-          <span>Jobs</span>
-        </a>
-        <span className="dot"></span>
-        <a href="https://#">
-          <span>Privacy</span>
-        </a>
-        <span className="dot"></span>
-        <a href="https://#">
-          <span>Terms</span>
-        </a>
-        <span className="dot"></span>
-        <a href="https://#">
-          <span>Locations</span>
-        </a>
-        <span className="dot"></span>
-        <a href="https://#">
-          <span>Language</span>
-        </a>
-        <span className="dot"></span>
-        <a href="https://#">
-          <span>Meta verified</span>
-        </a>
+        {footerTags.map((tag, index) => {
+          return (
+            <div className="links-tags" key={index}>
+              <a href="https://#">
+                <span>{tag}</span>
+              </a>
+              <span className="dot"></span>
+            </div>
+          );
+        })}
       </div>
       <span>© 2024 Instagram from AchiGel</span>
     </div>

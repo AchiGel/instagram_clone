@@ -16,6 +16,10 @@
   width: 24px;
 }
 
+.post-profile-dots:hover {
+  cursor: pointer;
+}
+
 .post-options {
   display: flex;
   justify-content: space-between;
@@ -33,10 +37,19 @@
   height: 24px;
 }
 
+.post-options img:hover {
+  cursor: pointer;
+  opacity: 0.4;
+}
+
 .post-likes {
   font-size: 14px;
   color: black;
   font-weight: 500;
+}
+
+.post-likes span:hover {
+  cursor: pointer;
 }
 
 .post-comments {
@@ -50,9 +63,16 @@
   height: 13px;
 }
 
+.post-comments img:hover {
+  cursor: pointer;
+  opacity: 0.4;
+}
+
 .post-comments textarea {
   border: none;
   outline: none;
+  resize: none;
+  width: 100%;
 }
 
 .post-content img {

@@ -23,6 +23,11 @@
   font-size: 12px;
 }
 
+.suggested-profiles-header button:hover {
+  cursor: pointer;
+  color: #737373;
+}
+
 .suggested-profiles-cards {
   display: flex;
   flex-direction: column;

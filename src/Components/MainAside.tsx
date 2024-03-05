@@ -6,7 +6,7 @@ import SuggestedProfiles from "./SuggestedProfiles";
 function MainAside() {
   return (
     <aside className="main-aside">
-      <AsideProfile />
+      <AsideProfile switch={<button>Switch</button>} />
       <SuggestedProfiles />
       <Footer />
     </aside>
