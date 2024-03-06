@@ -6,7 +6,7 @@ import Profile from "./Profile";
 import insta from "../images/instagram.png";
 import { useState } from "react";
 
-function Navigation() {
+function Navigation(props: any) {
   const [isClicked, setIsClicked] = useState(false);
 
   return (
@@ -22,7 +22,12 @@ function Navigation() {
           />
         )}
 
-        <NavBar logoClicked={() => setIsClicked(!isClicked)} />
+        <NavBar
+          exploreLogoClicked={() => {
+            props.exploreLogoClicked();
+          }}
+          logoClicked={() => setIsClicked(!isClicked)}
+        />
         <Profile isClicked={isClicked} />
         <More isClicked={isClicked} />
       </div>

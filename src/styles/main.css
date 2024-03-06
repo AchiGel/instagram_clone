@@ -3,3 +3,14 @@
   display: flex;
   justify-content: space-between;
 }
+
+.main-section-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 317px);
+  gap: 5px;
+  margin-left: 40px;
+}
+
+.main-section-grid img {
+  width: 100%;
+}

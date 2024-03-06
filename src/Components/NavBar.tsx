@@ -56,6 +56,10 @@ function NavBar(props: any) {
             setIsClicked(!isClicked);
             props.logoClicked();
           }}
+          handleExplore={() => {
+            handleSearch(index);
+            props.exploreLogoClicked();
+          }}
           key={index}
           icon={item.icon}
           title={item.title}

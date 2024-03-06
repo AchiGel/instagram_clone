@@ -3,7 +3,15 @@ import "../styles/navBarItems.css";
 function NavBarItems(props: any) {
   return (
     <button
-      onClick={props.handleSearch}
+      onClick={(e) => {
+        if (e.currentTarget.textContent === "Search") {
+          props.handleSearch();
+        } else if (e.currentTarget.textContent === "Explore") {
+          props.handleExplore();
+        } else {
+          return;
+        }
+      }}
       className="nav-bar-items navbar-button"
     >
       <img src={props.icon} alt="icon" />
