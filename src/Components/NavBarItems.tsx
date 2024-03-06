@@ -7,7 +7,7 @@ function NavBarItems(props: any) {
       className="nav-bar-items navbar-button"
     >
       <img src={props.icon} alt="icon" />
-      <h3>{props.title}</h3>
+      <h3 className={props.className}>{props.title}</h3>
     </button>
   );
 }

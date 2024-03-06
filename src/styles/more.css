@@ -13,3 +13,11 @@
 .more img {
   max-width: 24px;
 }
+
+.text-hiden {
+  display: none;
+}
+
+.text-visible {
+  display: block;
+}

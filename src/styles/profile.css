@@ -17,3 +17,11 @@
   height: 24px;
   object-fit: cover;
 }
+
+.hiden-text {
+  display: none;
+}
+
+.visible-text {
+  display: block;
+}

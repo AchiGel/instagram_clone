@@ -10,7 +10,7 @@ import "../styles/navBar.css";
 
 import { useState } from "react";
 
-function NavBar() {
+function NavBar(props: any) {
   const [navBarItems, setNavBarItems] = useState([
     { icon: homeIcon, title: "Home", clicked: false },
     { icon: searchIcon, title: "Search", clicked: false },
@@ -28,6 +28,8 @@ function NavBar() {
       )
     );
   }
+
+  const [isClicked, setIsClicked] = useState(false);
 
   return (
     <div className="navbar-items">
@@ -49,10 +51,15 @@ function NavBar() {
       )}
       {navBarItems.map((item, index) => (
         <NavBarItems
-          handleSearch={() => handleSearch(index)}
+          handleSearch={() => {
+            handleSearch(index);
+            setIsClicked(!isClicked);
+            props.logoClicked();
+          }}
           key={index}
           icon={item.icon}
           title={item.title}
+          className={!isClicked ? "nav-bar-title" : "nav-bar-title-hiden"}
         />
       ))}
     </div>

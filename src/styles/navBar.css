@@ -45,3 +45,11 @@
   align-items: center;
   justify-content: center;
 }
+
+.nav-bar-title {
+  display: block;
+}
+
+.nav-bar-title-hiden {
+  display: none;
+}
