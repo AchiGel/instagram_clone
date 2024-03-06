@@ -12,12 +12,16 @@ function Navigation() {
   return (
     <div className={!isClicked ? "navigation" : "navigation-hiden"}>
       <div className="container">
-        <img className="navigation-logo" src={logo} alt="instagram logo" />
-        <img
-          className="navigation-logo-responsive"
-          src={insta}
-          alt="instagram logo"
-        />
+        {!isClicked ? (
+          <img className="navigation-logo" src={logo} alt="instagram logo" />
+        ) : (
+          <img
+            className="navigation-logo-responsive navigation-logo-responsive-show"
+            src={insta}
+            alt="instagram logo"
+          />
+        )}
+
         <NavBar logoClicked={() => setIsClicked(!isClicked)} />
         <Profile isClicked={isClicked} />
         <More isClicked={isClicked} />

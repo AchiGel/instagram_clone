@@ -23,11 +23,16 @@
 }
 
 .navigation-logo {
+  display: block;
   width: 103px;
 }
 
 .navigation-logo-responsive {
   display: none;
+}
+
+.navigation-logo-responsive-show {
+  display: block;
 }
 
 .navigation-logo:hover {
