@@ -1,5 +1,5 @@
 .main {
-  margin: 20px 100px auto 300px;
+  margin: 20px 100px 50px 300px;
   display: flex;
   justify-content: space-between;
 }
@@ -13,4 +13,8 @@
 
 .main-section-grid img {
   width: 100%;
+}
+
+.main-section-grid img:hover {
+  cursor: pointer;
 }
