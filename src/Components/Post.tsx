@@ -11,7 +11,11 @@ function Post(props: any) {
   return (
     <div className="post">
       <div className="post-profile">
-        <AsideProfile />
+        <AsideProfile
+          name={props.userName}
+          subName={props.userSubName}
+          profileImg={props.userProfileImg}
+        />
         <img className="post-profile-dots" src={dots} alt="dots" />
       </div>
 

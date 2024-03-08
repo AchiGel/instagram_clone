@@ -1,14 +1,13 @@
 import "../styles/asideProfile.css";
-import profileImg from "../images/profileImg.jpg";
 
 function AsideProfile(props: any) {
   return (
     <div className="aside-profile">
       <div className="aside-profile-info">
-        <img src={profileImg} alt="profile" />
+        <img src={props.profileImg} alt="profile" />
         <div className="aside-profile-info-names">
-          <h3>achigelashvili</h3>
-          <span>Achi Gelashvili</span>
+          <h3>{props.name}</h3>
+          <span>{props.subName}</span>
         </div>
       </div>
       {props.switch}
